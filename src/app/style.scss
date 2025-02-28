@@ -1,0 +1,26 @@
+
+
+.pin{
+    height: 5px;
+    width: 35px;
+    background-color: white;
+    margin: 10px;
+    transition: all 0.3s ease;
+}
+
+.pin01.active {
+    transform:translateY(15px) rotate(45deg); 
+
+}
+.pin02.active {
+    background-color: rgba(186, 166, 166, 0);
+}
+.pin03.active {
+    transform:translateY(-15px) rotate(-45deg); 
+}
+
+.navbar-toggle{
+    background-color: rgb(200, 0, 255);
+    width: 70px;
+    height: 70px;
+}

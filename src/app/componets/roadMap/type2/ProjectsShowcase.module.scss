@@ -1,0 +1,132 @@
+.container {
+    text-align: center;
+    
+    h2{
+      margin: 10px;
+      font-size: 2rem;
+    }
+    h3{
+      margin-top: 10px;
+    }
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-top: 20px;
+    .scopeImage{
+      height: 174px;
+      overflow: hidden; 
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img{
+        height: auto;
+        width: 110%;
+      }
+    }
+  }
+  .projectCard {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 0% 5%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    height: 250px;
+
+  }
+  
+  .projectCard:hover {
+    transform: scale(1.05);
+  }
+
+  
+  .scopeModal{
+    width: 100%;
+    border-radius: 10px;
+    height: fit-content;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    img{
+      height: 100%;
+      width: auto;
+      image-rendering: crisp-edges;
+    }
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+  }
+  
+  .buttons a {
+    background: #1e3a8a;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+    transition: background ease 0.3s;
+    &:hover{
+      background-color: #3082a3;
+    }
+  }
+  
+  .closeButton {
+    margin-top: 10px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 12px  solid #3082a3;
+    padding: 8px 12px;
+    margin-right: 70px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    position: fixed;
+    top: 0;
+    left: 1rem;
+  }
+  .modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+
+  .modalContent {
+    background: white;
+    top: 0px;
+    left: 0px;
+    padding: 20px;
+    margin: 40px;
+    width: 90%;
+    height: 90%;
+    overflow-y: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    h2{
+      font-size: 2rem;
+      padding: 1rem;
+    }
+    p{
+      font-size: 1rem;
+      white-space: pre-line;
+      text-align: justify;
+      padding: 10px;
+    }
+  }
+  

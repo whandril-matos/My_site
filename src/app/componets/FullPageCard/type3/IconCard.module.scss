@@ -1,0 +1,95 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    margin: 1rem auto;
+    transition: transform 0.3s ease;
+    padding: max(2.5rem, 5%);
+    padding-top: 4rem;
+    margin-top: 0;
+  }
+  
+  
+  
+  .imageWrapper {
+    background-color: #1e3a8a;
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    animation: slideIn 0.8s ease-out;
+    
+  }
+  .imageWrapper:hover{
+    background-color: rgb(48, 130, 163);
+    transition: background-color 0.3s ease-in-out, ease-out 0.3s ;
+  }
+  
+  .image {
+    object-fit: cover;
+    border-radius: 100%;
+    object-fit: cover;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    height: 100%;
+    width: 100%;
+    
+  }
+  
+  .textContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    animation: fadeIn 1s ease-out;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    color: #475569;
+  }
+  
+  @media (max-width: 800px) {
+    .card {
+      flex-direction: column-reverse;
+      text-align: center;
+
+    }
+    .image{
+      height: 10%;
+    }
+  }
+  

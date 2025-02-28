@@ -1,0 +1,121 @@
+.featureSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 3rem;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 10px;
+  color: rgb(18, 18, 18);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.332), rgba(255, 255, 255, 0.309)), url('https://cdn.pixabay.com/photo/2015/11/06/13/17/texture-1027700_1280.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .textContent {
+    flex: 1;
+    max-width: 50%;
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h4 {
+      font-size: 1.5rem;
+      color: rgb(18, 18, 18);
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 1.5rem;
+      margin-bottom: 1rem;
+
+      li {
+        margin-bottom: 0.5rem;
+        display: flex;
+        flex-direction: row;
+        
+        .iconL {
+          padding-right: 5px;
+          font-size: 21px;
+          color: #000000;
+        }
+      }
+    }
+
+    p {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .bottomBox {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .bt2 {
+      background: #d32525;
+      &:hover {
+        background: #ee5959;
+      }
+    }
+
+    button {
+      padding: 0.8rem 1.5rem;
+      background: #25D366;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+      display: flex;
+      flex-direction: row;
+      margin: 10px 5px 10px 5px;
+
+      .icon {
+        margin-left: 10px;
+        font-size: 20px;
+      }
+
+      &:hover {
+        background: #59ee90;
+      }
+    }
+  }
+
+  .imageContainer {
+    flex: 1;
+    max-width: 60%;
+
+    img {
+      width: 200%;
+      height: auto;
+      border-radius: 10px;
+    }
+  }
+
+  // Responsividade
+  @media (max-width: 900px) {
+    flex-direction: column;
+    text-align: left;
+
+    .textContent {
+      max-width: 100%;
+    }
+
+    .imageContainer {
+      width: 100%;
+      min-width: 400px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .imageContainer {
+      min-width: 100%;
+    }
+  }
+}

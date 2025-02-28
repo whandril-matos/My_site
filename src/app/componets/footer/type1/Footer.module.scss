@@ -1,0 +1,50 @@
+.footer {
+    background: rgba(34, 34, 34, 0);
+    color: white;
+    
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+  
+  .info {
+    text-align: left;
+    max-width: 600px;
+    margin: 20px;
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+      margin-top: 30px;
+    }
+  
+    p {
+      font-size: 1.3rem;
+      margin: 5px 0;
+    }
+  }
+  
+  .image{
+    border-radius: 8px;
+    width: 50vw;
+    min-width: 400px;
+    padding: 10px;
+    
+  }
+@media(max-width:866px){
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+  }
+}

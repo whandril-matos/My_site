@@ -1,0 +1,70 @@
+.virtualCard {
+  width: 300px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .cardHeader {
+    padding: 1.5rem;
+    background: #007bff;
+    color: #ffffff;
+
+    .profileIcon {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: 3px solid #ffffff;
+      margin-bottom: 1rem;
+    }
+
+    h2 {
+      margin: 0.5rem 0;
+      font-size: 1.5rem;
+    }
+
+    p {
+      margin: 0;
+      font-size: 1rem;
+      font-weight: 300;
+    }
+  }
+
+  .cardBody {
+    padding: 1rem;
+    font-size: 1rem;
+    color: #555555;
+
+    p {
+      margin: 0;
+      line-height: 1.5;
+    }
+  }
+
+  .cardFooter {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    background: #f9f9f9;
+
+    a {
+      color: #007bff;
+      font-size: 1.5rem;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: #0056b3;
+      }
+    }
+  }
+}
