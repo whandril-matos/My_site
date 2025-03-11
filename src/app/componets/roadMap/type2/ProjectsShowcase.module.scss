@@ -1,33 +1,36 @@
 .container {
     text-align: center;
-    
-    h2{
-      margin: 10px;
-      font-size: 2rem;
+
+    h2 {
+        font-size: 2rem;
+        text-align: left;
+        padding: max(2.5rem, 5%);
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
-    h3{
-      margin-top: 10px;
+    h3 {
+        margin-top: 10px;
     }
-  }
-  
-  .grid {
+}
+
+.grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     margin-top: 20px;
-    .scopeImage{
-      height: 174px;
-      overflow: hidden; 
-      border-radius: 10px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      img{
-        height: auto;
-        width: 110%;
-      }
+    .scopeImage {
+        height: 174px;
+        overflow: hidden;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            height: auto;
+            width: 110%;
+        }
     }
-  }
-  .projectCard {
+}
+.projectCard {
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -36,15 +39,13 @@
     cursor: pointer;
     transition: transform 0.3s ease;
     height: 250px;
+}
 
-  }
-  
-  .projectCard:hover {
+.projectCard:hover {
     transform: scale(1.05);
-  }
+}
 
-  
-  .scopeModal{
+.scopeModal {
     width: 100%;
     border-radius: 10px;
     height: fit-content;
@@ -52,20 +53,20 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    img{
-      height: 100%;
-      width: auto;
-      image-rendering: crisp-edges;
+    max-height: 60vh;
+    img {
+        height: 100%;
+        width: auto;
+        image-rendering: crisp-edges;
     }
-  }
-  .buttons {
+}
+.buttons {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    
-  }
-  
-  .buttons a {
+}
+
+.buttons a {
     background: #1e3a8a;
     color: white;
     padding: 10px 15px;
@@ -73,26 +74,31 @@
     text-decoration: none;
     margin: 10px;
     transition: background ease 0.3s;
-    &:hover{
-      background-color: #3082a3;
+    &:hover {
+        background-color: #3082a3;
     }
-  }
-  
-  .closeButton {
+}
+
+.closeButton {
     margin-top: 10px;
     background: #ffffff;
     color: rgb(0, 0, 0);
-    border: 12px  solid #3082a3;
+    border: 3px solid #1e3a8a;
     padding: 8px 12px;
     margin-right: 70px;
-    border: none;
+    transition: border ease 0.3s;
+
+    &:hover {
+        border: 3px solid #3082a3;
+    }
+
     cursor: pointer;
     border-radius: 5px;
     position: fixed;
     top: 0;
     left: 1rem;
-  }
-  .modalOverlay {
+}
+.modalOverlay {
     position: fixed;
     top: 0;
     left: 0;
@@ -103,10 +109,9 @@
     justify-content: center;
     align-items: center;
     z-index: 1000;
-  }
-  
+}
 
-  .modalContent {
+.modalContent {
     background: white;
     top: 0px;
     left: 0px;
@@ -118,15 +123,14 @@
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     position: relative;
-    h2{
-      font-size: 2rem;
-      padding: 1rem;
+    h2 {
+        font-size: 2rem;
+        padding: 1rem;
     }
-    p{
-      font-size: 1rem;
-      white-space: pre-line;
-      text-align: justify;
-      padding: 10px;
+    p {
+        font-size: 1rem;
+        white-space: pre-line;
+        text-align: justify;
+        padding: 10px;
     }
-  }
-  
+}

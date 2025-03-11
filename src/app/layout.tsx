@@ -1,7 +1,9 @@
-import type { Metadata } from 'next';
+'use client';
+import { useRouter } from "next/router";
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import './globals.scss';
+import '../i18nify'
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -13,10 +15,7 @@ const geistMono = Geist_Mono({
   subsets: ['latin'],
 });
 
-export const metadata: Metadata = {
-  title: 'Center builder',
-  description: 'Center builder from react',
-};
+
 
 export default function RootLayout({
   children,

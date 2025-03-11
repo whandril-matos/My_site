@@ -1,0 +1,16 @@
+.language-switcher {
+    .language-select {
+        background-color: white; // Cor de fundo branca
+        color: black;
+        // Cor da letra preta
+        border: 1px solid rgb(47, 130, 162); // Borda cinza suave
+        border-radius: 8px 8px 0px 0px; // Pontas arredondadas
+        padding: 2px 12px; // Padding confortável para o select
+        font-size: 1rem; // Tamanho de fonte
+        cursor: pointer; // Cursor de ponteiro
+        option {
+            background-color: white; // Fundo branco para as opções
+            color: black; // Texto preto nas opções
+        }
+    }
+}

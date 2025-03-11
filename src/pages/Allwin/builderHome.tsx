@@ -167,7 +167,7 @@ export default function CompletePage() {
                 <Navbar nameLogo={jsonScope.nameLogo} links={jsonScope.links} />
                 <a id="home"></a>
                 <Part1
-                    ctaLink={jsonScope.bannerStart.ctaLink}
+                    ctaLink={'a'}
                     ctaText={jsonScope.bannerStart.ctaText}
                     description={jsonScope.bannerStart.description}
                     name={jsonScope.bannerStart.name}

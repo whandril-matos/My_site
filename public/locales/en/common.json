@@ -1,0 +1,169 @@
+{
+    "bannerStart": {
+        "ctaLink": "#about",
+        "ctaText": "Let's get started!",
+        "description": "Front-End Developer for over 6 years.",
+        "name": "Hi, my name is Whandril Matos!",
+        "role": "Turning dreams into digital businesses."
+    },
+
+    "nameLogo": "W.M.R",
+    "links": [
+        { "label": "Home", "href": "#home" },
+        { "label": "About", "href": "#about" },
+        { "label": "Projects", "href": "#projects" },
+        { "label": "Skills", "href": "#skills" },
+        { "label": "Contact", "href": "#contacts" },
+        { "label": "Experience", "href": "#experience" }
+    ],
+
+    "list": {
+        "title": "Technologies",
+        "techs": [
+            { "name": "HTML5", "iconName": "HTML5" },
+            { "name": "CSS3", "iconName": "CSS3" },
+            { "name": "SCSS", "iconName": "SCSS" },
+            { "name": "JavaScript", "iconName": "JavaScript" },
+            { "name": "TypeScript", "iconName": "TypeScript" },
+            { "name": "React", "iconName": "React" },
+            { "name": "Next.js", "iconName": "Next.js" },
+            { "name": "Node.js", "iconName": "Node.js" },
+            { "name": "Python", "iconName": "Python" }
+        ]
+    },
+    
+
+    "iconProfessional": {
+        "title": "Who am I?",
+        "description": "Front-End Developer with over 6 years of experience in web development. Specialized in creating intuitive and visually appealing interfaces that enhance user experience and drive conversions. Passionate about technology and innovation, I have strong knowledge in web development. Committed to delivering high-quality solutions.",
+        "imageUrl": "/iconPerfil.png",
+        "imageAlt": "Development Icon"
+    },
+    
+    "infosRoadMap": {
+        "titleRoadMap": "Professional Experience",
+        "titleButton1": "show more",
+        "titleButton2": "show less",
+        "roadMapWork": [
+            {
+                "companyName": "Reconhecer Padrão, Portugal",
+                "position": "Front-End Developer (Remote)",
+                "description": [
+                    "The media company needed a developer to create custom websites on demand and ensure continuous content updates, improving user experience and customer service efficiency.",
+                    "My responsibility was to develop dynamic and intuitive websites, as well as maintain and update recurring posts. I used HTML5, CSS3, JavaScript, and WordPress, always applying UX Design principles to enhance usability and visitor retention.",
+                    "Developed and implemented responsive and optimized layouts for different devices.",
+                    "Improved website navigation structure and usability, ensuring a smoother experience.",
+                    "Automated post updates on WordPress, reducing time spent on manual tasks.",
+                    "Optimized page loading, decreasing wait times and improving overall performance.",
+                    "12.63% increase in user retention driven by UX and loading improvements.",
+                    "2.34% reduction in customer service issues due to automation and better information organization."
+                ],
+                "startDate": "January 2024",
+                "endDate": "January 2025"
+            },
+            {
+                "companyName": "Quality Digital, Brazil",
+                "position": "Front-End Developer (Remote)",
+                "description": [
+                    "Created and maintained image-based websites using CSS3, HTML5, JavaScript, and Python.",
+                    "Implemented improvements for website optimization and responsiveness.",
+                    "Worked closely with designers to ensure prototype fidelity and visual excellence.",
+                    "With my contribution, projects were completed 1.3% faster, and the site's visual aspect provided a seamless user experience."
+                ],
+                "startDate": "October 2023",
+                "endDate": "December 2023"
+            },
+            {
+                "companyName": "Freelancer, Global",
+                "position": "Python Automation Developer (Remote)",
+                "description": [
+                    "Individual clients needed custom solutions developed in Python to meet their specific needs, ranging from task automation to web applications and data processing.",
+                    "My role was to analyze client needs, design, and develop efficient and scalable systems, ensuring they were user-friendly and met proposed requirements.",
+                    "Conducted requirement gathering to understand each client's pain points and expectations.",
+                    "Developed custom systems using Python and appropriate frameworks such as Django and Flask.",
+                    "Implemented process automation, optimizing workflows and reducing repetitive manual tasks.",
+                    "Created documentation and training to ensure clients could use and maintain the systems easily.",
+                    "Up to 40% reduction in manual process execution time through automation.",
+                    "Increased operational efficiency for clients by eliminating bottlenecks and optimizing workflows.",
+                    "High client satisfaction, ensuring functional and adaptable solutions to their needs."
+                ],
+                "startDate": "June 2019",
+                "endDate": "January 2020"
+            },
+            {
+                "companyName": "Beliza, Brazil",
+                "position": "Front-End Developer (Remote)",
+                "description": [
+                    "Performance optimization: Reduced website loading time by 35% by implementing techniques such as lazy loading, image optimization, and minification of CSS and JavaScript files.",
+                    "Implementation of new features: Developed functionalities that improved conversion rates, including an optimized checkout system, advanced product filters, and personalized notifications, increasing conversions by 15%.",
+                    "Team collaboration: Worked with a team of 12 professionals, participating in daily stand-ups, code reviews, and agile sprints to ensure consistent and high-quality deliveries.",
+                    "Remote work and agile methodologies: Used Scrum and Kanban to organize and prioritize tasks, ensuring feature delivery within established deadlines."
+                ],
+                "startDate": "January 2017",
+                "endDate": "January 2022"
+            }
+        ]
+    },
+    
+    "project": {
+        "title": "Projects",
+        "button1": "Project Repository",
+        "button2": "Project Website",
+        "close": "Back",
+        "projects": [
+            {
+                "id": 1,
+                "title": "Cronos Accounting",
+                "image": "/cronosCont.png",
+                "description": "A dynamic landing page developed with a focus on performance, modularity, and code reusability. Using React to structure the interface dynamically and Next.js to optimize page loading, the site features an efficient modular organization. Styling is managed with SCSS (Sass) for greater flexibility and optimization, while TypeScript can be integrated to ensure static typing and code safety. The structure is based on reusable components, allowing for easy maintenance and scalability, with dynamic props enabling customization without the need for refactoring. The site is divided into modular sections, including a main banner, company profile, offered services, clients served, and a footer with contact information. Key technical highlights include flexibility for content updates, well-organized code following best practices, performance optimization, enhanced SEO, and a responsive design adaptable to various devices. This project is an excellent example of modern front-end development, combining an intuitive design, good coding practices, and efficient componentization to deliver a professional and seamless experience.",
+                "repoLink": "https://github.com/whandril-matos/Cronos-_Accounting",
+                "liveLink": "https://cronos-accounting.vercel.app/"
+            },
+            {
+                "id": 2,
+                "title": "The Last Of Us Banner",
+                "image": "/theLastOfUs.png",
+                "description": "This project is a tribute to The Last of Us universe, delivering an engaging digital experience through the combination of HTML, CSS, and JavaScript. The site’s structure is built in HTML to ensure smooth and intuitive navigation, while CSS is used to create an immersive design that reflects the game's atmosphere. JavaScript adds interactivity, making the experience dynamic and engaging. To optimize performance and efficiency, Big-O Notation concepts were applied, ensuring fast and responsive loading on different devices. The result is an online space that captures the essence of the franchise and provides a unique immersion for fans and new explorers of this post-apocalyptic universe.",
+                "repoLink": "https://github.com/whandril-matos/site_the_last_of_us",
+                "liveLink": "https://site-the-last-of-us-opal.vercel.app/"
+            },
+            {
+                "id": 3,
+                "title": "Handyman Project",
+                "image": "/HandManProject.png",
+                "description": "Speed Repair is a modern and optimized landing page developed to showcase the company's home maintenance and repair services. Built with React and SCSS, it provides a smooth, responsive, and fast-loading experience, ensuring intuitive navigation for users. The site structure includes a full-page card-style introduction section, a visually appealing list of services such as carpentry, plumbing, electrical work, and gardening, along with a detailed explanation of the company’s work methodology. It also features an FAQ section in an accordion style for better information organization, a call-to-action encouraging contact via WhatsApp or phone, and a footer with additional information and useful links. The project utilizes React/Next for a modular and reusable structure, SCSS for a professional and responsive design, and state management with useState and useEffect for efficient page loading control. Additionally, it simulates a local API to facilitate data handling. Speed Repair is an efficient and objective landing page designed to attract customers quickly and effectively, highlighting repair services with clarity and usability.",
+                "repoLink": "https://github.com/whandril-matos/HandManProject",
+                "liveLink": "https://hand-man-project.vercel.app/"
+            },
+            {
+                "id": 4,
+                "title": "Alpine Adventure",
+                "image": "/aupinist.png",
+                "description": "Alpine Adventure is a modern and responsive website designed to inspire and inform mountaineering enthusiasts. The platform features content about the thrill of climbing mountains, practical tips, equipment recommendations, and an introduction to the world of mountaineering, creating an engaging experience for users. The website structure is based on HTML5, ensuring semantic and well-organized code. The design is enhanced with CSS3 and Bootstrap 5.1, providing a responsive layout and a visually appealing interface. To make navigation more interactive, animations and dynamic features are implemented using JavaScript, including expandable menus and smooth transition effects. SEO and accessibility optimization improve user experience, ensuring the site is easily found in searches and accessible to different visitor profiles. High-quality images and modern typography complement the design, reinforcing the visual identity and immersion in the mountaineering universe.",
+                "repoLink": "https://github.com/whandril-matos/aupinist_site",
+                "liveLink": "https://aupinist-site.vercel.app/"
+            }
+        ]
+    },
+    
+    "contact": {
+        "title": "My Contacts",
+        "linkedin": "https://www.linkedin.com/in/whandril-matos-566554255/",
+        "github": "https://github.com/whandril-matos",
+        "twitter": "https://x.com/ToeWma5366",
+        "instagram": "https://www.instagram.com/whandrilmatos/",
+        "youtube": "https://www.youtube.com/@devToDay-YT",
+        "email": "matoswhandril@gmail.com",
+        "phone": "55 61 999054933",
+        "copyMensage": "copied to clipboard!",
+        "copyOn": "copied",
+        "emailTextDefaut": "copy Email",
+        "phoneTextDefaut": "copy phone number"
+    },
+    "footer": {
+        "aboutText": "Showcase your work to the world!",
+        "aboutTitle": "Let's build something amazing together",
+        "copyrightText": "All rights reserved ©"
+    }
+    
+}

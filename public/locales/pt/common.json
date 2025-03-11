@@ -103,7 +103,7 @@
             }
         ]
     },
-    
+
     "project": {
         "title": "Projetos",
         "button1": "Repositório do projeto",
@@ -143,5 +143,25 @@
                 "liveLink": "https://aupinist-site.vercel.app/"
             }
         ]
+    },
+    "contact": {
+        "title": "Meus Contatos",
+        "linkedin": "https://www.linkedin.com/in/whandril-matos-566554255/",
+        "github": "https://github.com/whandril-matos",
+        "twitter": "https://x.com/ToeWma5366",
+        "instagram": "https://www.instagram.com/whandrilmatos/",
+        "youtube": "https://www.youtube.com/@devToDay-YT",
+        "email": "matoswhandril@gmail.com",
+        "phone": "+55 61 999054933",
+        "copyMensage": "copiado para a área de transferência!",
+        "copyOn": "copiado",
+        "emailTextDefaut": "copiar Email",
+        "phoneTextDefaut": "copiar número de telefone"
+    },
+    "footer": {
+        "aboutText": "Apresente seu trabalho ao mundo!",
+        "aboutTitle": "Vamos construir algo incrível juntos",
+        "copyrightText": "Todos os direitos reservados ©"
     }
+    
 }
