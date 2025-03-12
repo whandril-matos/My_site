@@ -1,11 +1,10 @@
 'use client';
 
-import { useTranslation } from 'react-i18next';
 import i18next from 'i18next';
 import './LanguageSwitcher.scss'; // Importe o arquivo SCSS
 
 const LanguageSwitcher = () => {
-    const { i18n } = useTranslation();
+
 
     const changeLanguage = (lang: string) => {
         i18next.changeLanguage(lang);

@@ -20,10 +20,12 @@ i18n
         debug: true,
         lng: 'en',
         fallbackLng: 'en',
+        returnObjects: true,
+        postProcess: false,
         interpolation: {
             escapeValue: false, // Corrigido de "escapeVlue" para "escapeValue"
         },
-        returnObjects: true,
+        
     });
 
 export default i18n;
