@@ -5,7 +5,6 @@ import './globals.css';
 import './globals.scss';
 import '../i18nify';
 
-import Head from 'next/head';
 
 const geistSans = Geist({
     variable: '--font-geist-sans',
