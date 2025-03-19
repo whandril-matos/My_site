@@ -24,6 +24,7 @@ export default function Home() {
     
     return (
         <>
+            
             <Navbar
                 nameLogo={t('nameLogo')}
                 links={t('links') as unknown as []}
